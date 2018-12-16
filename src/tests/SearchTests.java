@@ -19,7 +19,7 @@ public class SearchTests extends CoreTestCase
         SearchPageObject.waitForSearchResult("Object-oriented programming language");
     }
 
-    @Test
+ /*   @Test
     public void testVerifyDefaultsSearchValue()
     {
         MainPageObject.waitForElementAndClick(
@@ -40,7 +40,7 @@ public class SearchTests extends CoreTestCase
                 search_value_defaults
         );
     }
-
+*/
     @Test
     public void testCancelSearch ()
     {
